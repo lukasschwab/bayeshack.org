@@ -122,17 +122,8 @@ a {
   border-color: #e31c3d;
 }
 
-.button.more {
-  background-color: #F5A623;
-  border-color: #e31c3d;
-}
-
 .button.live:hover {
   color: white
-}
-
-.button.more:hover {
-  background-color: #8F9CB3;
 }
 
 .pixel {
@@ -561,7 +552,7 @@ a {
   padding-top: 120px;
 }
 
-/* Prompts */
+/* Prompts with background */
 
 #prompts {
   height: 300px;
@@ -584,6 +575,29 @@ a {
   font-size: 36px;
   line-height: 1.5;
 }
+
+/* Announcements, curr for prompts link */ 
+#announcement {
+  height: 400px;
+  background-color: #112e51;
+}
+
+.announcement-container {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 75px;
+  position: relative;
+}
+
+.announcement-header {
+  color: white;
+  font-size: 28px;
+  line-height: 1.5;
+  margin-bottom: 15px
+}
+
 
 /* apply */
 
