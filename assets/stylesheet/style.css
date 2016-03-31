@@ -44,6 +44,10 @@ a {
   border: none;
 }
 
+#sponsor #sponsors-container a {
+  border: none;
+}
+
 /* assets */
 
 .logo {
@@ -244,7 +248,7 @@ a {
 
 .section-header {
   font-size: 36px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
   z-index: 1;
   position: relative;
   text-align: center;
@@ -283,11 +287,11 @@ a {
 }
 
 .slant.bottom {
-  bottom: -40px;
+  bottom: -20px;
 }
 
 .slant.top {
-  top: -40px;
+  top: -20px;
 }
 
 .slant.left {
@@ -548,10 +552,57 @@ a {
   padding-top: 120px;
 }
 
+/* Prompts with background */
+
+#prompts {
+  height: 300px;
+  background-color: #112e51;
+  background-image: url("../img/hackathon_background.jpg");
+  margin: 0px 0px 30px 0px;
+}
+
+.prompts-container {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+.prompts-header {
+  color: white;
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+/* Announcements, curr for prompts link */ 
+#announcement {
+  height: 400px;
+  background-color: #112e51;
+}
+
+.announcement-container {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 75px;
+  position: relative;
+}
+
+.announcement-header {
+  color: white;
+  font-size: 28px;
+  line-height: 1.5;
+  margin-bottom: 15px
+}
+
+
 /* apply */
 
 #apply {
-  height: 600px;
+  height: 400px;
   background-color: #112e51;
 }
 
@@ -570,7 +621,7 @@ a {
   max-width: 400px;
   text-align: center;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 75px;
   position: relative;
 }
 
@@ -687,12 +738,12 @@ a {
 }
 
 #footer p {
-  font-weight: 100;
-  line-height: 1.7
+  font-weight: 100; !important
+  line-height: 1.7 !important
 }
 
 #footer p.credit {
-  font-size: 12px;
+  font-size: 12px; !important
 }
 
 /* responsive */
@@ -903,7 +954,7 @@ a {
   }
 
   #about .section-header {
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   #hackathon-photo {
@@ -992,8 +1043,6 @@ a {
   .desktop-img {
     display: none
   }
-
-
 
 }
 

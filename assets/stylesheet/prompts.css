@@ -1,0 +1,51 @@
+t {
+    height: inherit;
+    margin:20px;
+    padding:0;
+    text-decoration: none; !important
+    border-bottom: 0px; !important
+}
+
+#row {
+    height:100%;
+    width:100%;
+}
+
+#prompt-footer.section {
+  background-color: #323a45;
+  color: white;
+  text-align: center;
+  margin: 30px 0px 0px 0px;
+  padding: 20px 20px;
+  font-family: "Proxima Nova","Open Sans",sans-serif;
+}
+
+p {
+  color: inherit;
+  line-height: 1.5;
+  font-size: 16px !important
+}
+
+h2 {
+  font-weight: bold;
+}
+
+blue: 6FCBDC;
+light-gray: F0F0F0;
+orange: F5A623;
+red: ED5F5F;
+lightgrey: 8F9CB3;
+
+
+.button.more {
+  padding: 0px 6px 0px 0px;
+  font-size: 16px;
+  background-color: #F5A623; !important
+  color: white;
+}
+
+.button.more:hover {
+  color: white;
+  border-color: #8F9CB3;
+  background-color: #8F9CB3;
+}
